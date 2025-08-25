@@ -1,6 +1,10 @@
 const Header = () => {
   return (
-    <h1>questo è l'header!</h1>
+    <header>
+        <div className="container">
+          <p>test</p>
+        </div>
+    </header>
   )
 }
 
