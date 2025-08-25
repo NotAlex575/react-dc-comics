@@ -2,7 +2,11 @@ const Footer = () => {
   return (
     <footer>
       <div className="container">
-        <div className="row margin-row-footer">
+        <div className="row h-80per bg-image">
+          <div className="w-50per"></div>
+          <div className="w-50per"></div>
+        </div>
+        <div className="row margin-row-footer h-20per bg-gray">
           <div className="iscriviti">
             <button>SIGN-UP NOW!</button>
           </div>

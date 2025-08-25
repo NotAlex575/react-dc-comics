@@ -42,6 +42,10 @@ ul {
     background-color: rgb(54, 54, 249);
 }
 
+.bg-gray{
+    background-color: rgb(189, 183, 183);
+}
+
 .color-white{
     color: white;
 }
@@ -55,6 +59,18 @@ ul {
 
 .h-50per{
     height: 50%;
+}
+
+.h-20per{
+    height: 20%;
+}
+
+.h-80per{
+    height: 80%;
+}
+
+.w-50per{
+    width: 50%;
 }
 
 /*GENERIC FLEX POSITION*/
@@ -109,13 +125,13 @@ main img{
 /*FOOTER CONTENT*/
 
 footer{
-    height: 100px;
-    background-color: rgb(189, 183, 183);
+    height: 400px;
 }
 
-.margin-row-footer{
-    margin: 30px;
+.bg-image{
+    background-image: url(/public/footer-bg.jpg);
 }
+
 
 .Follow-us{
     color: blue;
