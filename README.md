@@ -1,12 +1,37 @@
-# React + Vite
+Esercizio di oggi: DC Comics (React Components)
+nome repo: react-dc-comics
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Descrizione:
+Create un nuovo progetto React e definite i componenti necessari per strutturare il layout come da screenshot allegato.
+Per oggi diamo priorità alla struttura: quando è tutto bello solido, passiamo al CSS!
 
-Currently, two official plugins are available:
+Note:
+-Il font utilizzato è Open Sans
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Bonus: 
+-Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+CREAZTONE NUOVA APPLICAZIONE REACT
+1 - Lanciare il comando npm create vite@latest per creare una nuova applicazione react
+
+2 - Rispondere alle domande che ci vengono poste ovvero:
+	a - Inserire il nome del progetto;
+	b - Selezionare React;
+	c - Selezionare Javascript
+
+3 - seguire le istruzioni riportate nel terminale:
+	a - lanciare il comando cd NOME_PROGETTO
+	b - lanciare il comando npm install
+	c - lanciare il comando npm run dev (per interrompere l'esecuzione -> CTRL + C)
+	d - aprire il progetto con vscode
+
+OPPURE
+
+	3 - lanciare il comando cd NOME_PROGETTO
+	4 - eseguire il comando code .
+	5 - lanciare i comandi npm install e npm run dev dal terminale di vscode
+
+6 - Svuotare il contenuto di App.jsx lasciando solo la funzione e 1'export default
+7 - Cancellare il file App.Css
+8 - Cancellare il contenuto del file index.css 
