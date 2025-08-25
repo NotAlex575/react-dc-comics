@@ -2,9 +2,9 @@ const Footer = () => {
   return (
     <footer>
       <div className="container">
-        <div className="row">
+        <div className="row margin-row-footer">
           <div className="iscriviti">
-            <button>Sign up now</button>
+            <button>SIGN-UP NOW!</button>
           </div>
           <nav>
             <ul>

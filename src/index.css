@@ -8,6 +8,7 @@
 
 .container{
     width: 80%;
+    height: 100%;
     border: 1px solid black;
     margin: 0 auto;
 }
@@ -16,8 +17,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px;
 }
+
+
+
 
 /*STYLING REMOVED FROM a AND ul*/
 
@@ -33,9 +36,12 @@ ul {
 /*HEADER CONTENT*/
 
 header{
-    height: 150px;
+    height: 100px;
 }
 
+.margin-row-header{
+    margin: 10px
+}
 
 nav ul{
     display: flex;
@@ -57,8 +63,21 @@ nav ul li{
 
 footer{
     height: 100px;
+    background-color: rgb(189, 183, 183);
+}
+
+.margin-row-footer{
+    margin: 30px;
 }
 
 .Follow-us{
     color: blue;
+}
+
+footer button{
+    width: 120px;
+    height: 40px;
+    border: 1px solid blue;
+    background-color: rgb(189, 183, 183);
+    color: white;
 }

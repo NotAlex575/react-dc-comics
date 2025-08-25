@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <header>
         <div className="container">
-          <div className="row">
+          <div className="row margin-row-header">
             <div className="logo">
               <img src="/dc-logo.png" alt="Logo" />
             </div>
