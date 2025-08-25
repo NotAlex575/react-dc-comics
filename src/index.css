@@ -4,30 +4,7 @@
     box-sizing: border-box;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
-
-ul {
-  list-style-type: none;
-}
-
-
-header{
-    height: 100px;
-}
-
-header nav ul{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-header nav ul li{
-    margin-right: 10px;
-}
-
+/*GENERIC CONTAINER ROW*/
 
 .container{
     width: 80%;
@@ -42,7 +19,46 @@ header nav ul li{
     margin: 10px;
 }
 
+/*STYLING REMOVED FROM a AND ul*/
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*HEADER CONTENT*/
+
+header{
+    height: 150px;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li{
+    margin-right: 10px;
+}
+
+
 .logo img {
   height: 80px;
   width: 80px;
+}
+
+/*FOOTER CONTENT*/
+
+footer{
+    height: 100px;
+}
+
+.Follow-us{
+    color: blue;
 }
