@@ -96,7 +96,13 @@ nav ul li{
 /*MAIN CONTENT*/
 
 main{
-    height: 150px;
+    height: 320px;
+}
+
+main img{
+    width: 40px;
+    height: 50px;
+    margin: 5px;
 }
 
 
