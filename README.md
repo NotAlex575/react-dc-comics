@@ -35,3 +35,13 @@ OPPURE
 6 - Svuotare il contenuto di App.jsx lasciando solo la funzione e 1'export default
 7 - Cancellare il file App.Css
 8 - Cancellare il contenuto del file index.css 
+
+CREAZTONE COMPONENTI
+
+1 - Creo il nuovo file (esempio main.jsx, Header.jsx, Footer.jsx...)
+2 - Digito rafce e premo invio
+3 - Scrivo il contenuto da visualizzare nel virtual DOM all‘interno del return
+4 - Importo la componente appena creata in quella definita genitore
+5 - Utilizzo la componente importata nell'altra scrivendola come tag (esempio: <Main />,
+<Header />, <Footer />....)
+

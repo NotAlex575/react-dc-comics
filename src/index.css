@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/*GENERIC CONTAINER ROW*/
+/*GENERIC CONTAINER ROW/COL*/
 
 .container{
     width: 80%;
@@ -21,7 +21,6 @@
 
 
 
-
 /*STYLING REMOVED FROM a AND ul*/
 
 a{
@@ -31,6 +30,41 @@ a{
 
 ul {
   list-style-type: none;
+}
+
+/*GENERIC BG, COLOR AND TEXT*/
+
+.bg-black{
+    background-color: rgb(44, 43, 43);
+}
+
+.bg-blue{
+    background-color: rgb(54, 54, 249);
+}
+
+.color-white{
+    color: white;
+}
+
+.text-center{
+    display: flex;
+    justify-content: start;
+}
+
+/*GENERIC W AND H*/
+
+.h-50per{
+    height: 50%;
+}
+
+/*GENERIC FLEX POSITION*/
+
+.flex{
+    display: flex;
+}
+
+.align-items-center{
+    align-items: center;
 }
 
 /*HEADER CONTENT*/
@@ -58,6 +92,13 @@ nav ul li{
   height: 80px;
   width: 80px;
 }
+
+/*MAIN CONTENT*/
+
+main{
+    height: 150px;
+}
+
 
 /*FOOTER CONTENT*/
 
