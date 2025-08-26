@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.font-medium{
+    font-size: medium
+}
+
 .img-fit{
     object-fit: contain;
 }
@@ -15,6 +19,11 @@
 .padding-top-40{
     padding-top: 40px;
 }
+
+.padding-10-0px{
+    padding: 10px 0;
+}
+
 
 .margin-top-70{
     margin-top: 70px;
@@ -223,7 +232,6 @@ main .logo{
 
 .col-card{
     width: 200px;   
-    box-sizing: border-box;
 }
 
 .bg-img-main{
@@ -249,15 +257,13 @@ main .logo{
 /*MAIN COLONNE CARD*/
 
 .prod-card{
-    position: relative;
-    margin: 5px;
+    margin: 10px;
     padding: 20px;
-    overflow: hidden;
 }
 
 .prod-card img{
-    width: 100%;
-    height: auto;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
 }
 

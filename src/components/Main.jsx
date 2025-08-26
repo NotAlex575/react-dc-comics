@@ -20,8 +20,8 @@ const Main = () => {
               return(
                 <div className="col-card prod-card">
                     <div className="col justify-content-center align-items-center w-100per">
-                      <img className="img-fit" src={comics.thumb} alt={comics.title} />
-                      <h2 className="color-white">{comics.series}</h2>
+                      <img className="img-fit padding-10-0px" src={comics.thumb} alt={comics.title} />
+                      <h2 className="color-white font-medium">{comics.series}</h2>
                     </div>
                 </div>
               )
