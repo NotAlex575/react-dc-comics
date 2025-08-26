@@ -83,6 +83,10 @@ ul {
     width: 100%;
 }
 
+.h-100per{
+    height: 100%;
+}
+
 .h-50per{
     height: 50%;
 }
@@ -187,6 +191,26 @@ main img{
     width: 40px;
     height: 50px;
     margin: 5px;
+}
+
+.bg-img-main{
+    background-image: url(/public/jumbotron.jpg);
+    background-size: cover;     
+}
+
+.padding-top-300px{
+    padding-top: 300px;
+}
+
+.current-series{
+    position: relative;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(54, 54, 249);
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
 }
 
 

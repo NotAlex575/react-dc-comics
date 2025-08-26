@@ -3,11 +3,11 @@
 const Main = () => {
   return (
     <main>
-      <div className="bg-black w-100per h-40per">
+      <div className="bg-img-main w-100per h-40per">
         <div className="container">
-          <div className="bg-black flex align-items-center">
-            <div className="color-white margin-top-70">
-              <p className="text-center">Content goes here!</p>
+          <div className="padding-top-300px">
+            <div className="current-series">
+              <p className="h-100per flex justify-content-center align-items-center">CURRENT SERIES</p>
             </div>
           </div>
         </div>
