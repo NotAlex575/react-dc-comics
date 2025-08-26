@@ -3,7 +3,7 @@ const Footer = () => {
     <footer>
       <div className="bg-image">
         <div className="container">
-          <div className="row h-80per">
+          <div className="row h-60per">
             <div className="row-footer-info w-60per">
               <div className="col">
                 <h2 className="color-white">DC COMICS</h2>
@@ -49,7 +49,7 @@ const Footer = () => {
       </div>
       <div className="bg-gray">
         <div className="container">
-          <div className="row margin-row-footer h-64px">
+          <div className="row margin-row-footer h-40per padding-30-0px">
             <div className="iscriviti">
               <button>SIGN-UP NOW!</button>
             </div>

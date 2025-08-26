@@ -91,8 +91,30 @@ ul {
     height: 20%;
 }
 
-.h-64px{
-    height: 64px;
+
+.h-30per{
+    height: 30%;
+}
+
+
+.h-40per{
+    height: 40%;
+}
+
+.h-45per{
+    height: 45%;
+}
+
+.h-50per{
+    height: 50%;
+}
+
+.h-60per{
+    height: 60%;
+}
+
+.h-70per{
+    height: 70%;
 }
 
 .h-80per{
@@ -109,6 +131,10 @@ ul {
 
 .w-40per{
     width: 40%;
+}
+
+.padding-30-0px{
+    padding: 30px 0;
 }
 
 /*GENERIC FLEX POSITION*/
@@ -154,7 +180,7 @@ nav ul li{
 /*MAIN CONTENT*/
 
 main{
-    height: 320px;
+    height: 800px;
 }
 
 main img{
@@ -166,8 +192,8 @@ main img{
 
 /*FOOTER CONTENT*/
 
-footer{
-    height: 400px;
+footer {
+    height: auto;
 }
 
 footer h2{
