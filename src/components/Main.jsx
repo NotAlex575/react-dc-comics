@@ -4,7 +4,7 @@ import Comics from "../../scripts/comics";
 const Main = () => {
   return (
     <main>
-      <div className="bg-img-main w-100per h-40per">
+      <div className="bg-img-main w-100per h-30per">
         <div className="container">
           <div className="padding-top-current-series">
             <div className="current-series">
@@ -13,73 +13,23 @@ const Main = () => {
           </div>
         </div>
       </div>
-      <div className="bg-black w-100per h-40per">
+      <div className="bg-black w-100per h-60per">
         <div className="container padding-top-40">
-          <div className="row wrap">
-            <div className="col-card prod-card">
-              <div className="col justify-content-center align-items-center w-100per">
-                <img src="/buy-comics-digital-comics.png" alt="" />
-                <p>biufdfsbdifub</p>
-              </div>
-            </div>
-            <div className="col-card prod-card">
-              <div className="col justify-content-center align-items-center w-100per">
-                <img src="/buy-comics-digital-comics.png" alt="" />
-                <p>biufdfsbdifub</p>
-              </div>
-            </div>
-           <div className="col-card prod-card">
-              <div className="col justify-content-center align-items-center w-100per">
-                <img src="/buy-comics-digital-comics.png" alt="" />
-                <p>biufdfsbdifub</p>
-              </div>
-            </div>
-            <div className="col-card prod-card">
-              <div className="col justify-content-center align-items-center w-100per">
-                <img src="/buy-comics-digital-comics.png" alt="" />
-                <p>biufdfsbdifub</p>
-              </div>
-            </div>
-             <div className="col-card prod-card">
-              <div className="col justify-content-center align-items-center w-100per">
-                <img src="/buy-comics-digital-comics.png" alt="" />
-                <p>biufdfsbdifub</p>
-              </div>
-            </div>
-             <div className="col-card prod-card">
-              <div className="col justify-content-center align-items-center w-100per">
-                <img src="/buy-comics-digital-comics.png" alt="" />
-                <p>biufdfsbdifub</p>
-              </div>
-            </div>
-            <div className="col-card prod-card">
-              <div className="col justify-content-center align-items-center w-100per">
-                <img src="/buy-comics-digital-comics.png" alt="" />
-                <p>biufdfsbdifub</p>
-              </div>
-            </div>
-            <div className="col-card prod-card">
-              <div className="col justify-content-center align-items-center w-100per">
-                <img src="/buy-comics-digital-comics.png" alt="" />
-                <p>biufdfsbdifub</p>
-              </div>
-            </div>
-            <div className="col-card prod-card">
-              <div className="col justify-content-center align-items-center w-100per">
-                <img src="/buy-comics-digital-comics.png" alt="" />
-                <p>biufdfsbdifub</p>
-              </div>
-            </div>
-            <div className="col-card prod-card">
-              <div className="col justify-content-center align-items-center w-100per">
-                <img src="/buy-comics-digital-comics.png" alt="" />
-                <p>biufdfsbdifub</p>
-              </div>
-            </div>
+          <div className="row-card">
+            {Comics.map((comics) => {
+              return(
+                <div className="col-card prod-card">
+                    <div className="col justify-content-center align-items-center w-100per">
+                      <img className="img-fit" src={comics.thumb} alt={comics.title} />
+                      <h2 className="color-white">{comics.series}</h2>
+                    </div>
+                </div>
+              )
+            })}
           </div>
         </div>
       </div>
-      <div className="bg-blue w-100per h-20per">
+      <div className="bg-blue w-100per h-10per">
         <div className="container">
             <div className="row h-50per">
                 <a className="row margin-top-70" href="#">

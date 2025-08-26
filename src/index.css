@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.img-fit{
+    object-fit: contain;
+}
+
 .padding-30-0px{
     padding: 30px 0;
 }
@@ -15,9 +19,7 @@
 .margin-top-70{
     margin-top: 70px;
 }
-.wrap{
-    flex-wrap: wrap;
-}
+
 
 /*GENERIC CONTAINER ROW/COL*/
 
@@ -25,6 +27,12 @@
     width: 80%;
     height: 100%;
     margin: 0 auto;
+}
+
+.row-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .row{
@@ -100,6 +108,10 @@ ul {
 
 .h-50per{
     height: 50%;
+}
+
+.h-10per{
+    height: 10%;
 }
 
 .h-20per{
@@ -200,7 +212,7 @@ nav ul li{
 /*MAIN CONTENT*/
 
 main{
-    height: 1200px;
+    height: 1300px;
 }
 
 main .logo{
@@ -210,7 +222,8 @@ main .logo{
 }
 
 .col-card{
-    width: 185px;
+    width: 200px;   
+    box-sizing: border-box;
 }
 
 .bg-img-main{
@@ -219,7 +232,7 @@ main .logo{
 }
 
 .padding-top-current-series{
-    padding-top: 455px;
+    padding-top: 365px;
 }
 
 .current-series{
@@ -236,12 +249,17 @@ main .logo{
 /*MAIN COLONNE CARD*/
 
 .prod-card{
+    position: relative;
     margin: 5px;
-    background-color: blue;
     padding: 20px;
+    overflow: hidden;
 }
 
-
+.prod-card img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
 
 
 /*FOOTER CONTENT*/
