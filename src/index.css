@@ -192,6 +192,8 @@ ul {
     align-items: center;
 }
 
+
+
 /*HEADER CONTENT*/
 
 header{
@@ -265,6 +267,15 @@ main .logo{
     width: 200px;
     height: 200px;
     object-fit: cover;
+}
+
+/*ALERT*/
+
+.alert{
+    background-color: red;
+    color: white;
+    margin: 10px;
+    padding: 20px;
 }
 
 
