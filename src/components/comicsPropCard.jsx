@@ -1,5 +1,5 @@
-const ComicsCard = ({ comics }) => {
-    const {thumb, title, series} = comics;
+const ComicsCard = ({comic}) => {
+    const {thumb, title, series} = comic;
     return(
         <div className="col-card prod-card">
             <div className="col justify-content-center align-items-center w-100per">

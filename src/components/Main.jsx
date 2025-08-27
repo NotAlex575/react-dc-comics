@@ -1,5 +1,5 @@
-import Comics from "../../scripts/comics";
-
+import comics from "../../scripts/comics";
+import ComicsCard from "./comicsPropCard";
 
 const Main = () => {
   return (
@@ -14,18 +14,11 @@ const Main = () => {
         </div>
       </div>
       <div className="bg-black w-100per h-60per">
-        <div className="container padding-top-40">
+         <div className="container padding-top-40">
           <div className="row-card">
-            {Comics.map((comics) => {
-              return(
-                <div className="col-card prod-card">
-                    <div className="col justify-content-center align-items-center w-100per">
-                      <img className="img-fit padding-10-0px" src={comics.thumb} alt={comics.title} />
-                      <h2 className="color-white font-medium">{comics.series}</h2>
-                    </div>
-                </div>
-              )
-            })}
+            {comics.map((comic) => (
+              <ComicsCard key={comic.id} comic={comic} />
+            ))}
           </div>
         </div>
       </div>
